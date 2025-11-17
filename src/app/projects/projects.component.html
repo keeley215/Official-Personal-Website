@@ -1,0 +1,29 @@
+<div class="projects-container">
+  <h1>My Projects</h1>
+  <div class="cards-grid">
+    <mat-card 
+      *ngFor="let project of projects" 
+      class="project-card"
+      (mouseenter)="onCardHover(project.id)"
+      (mouseleave)="onCardLeave()"
+    >
+      <div class="card-content" [class.hovered]="hoveredCardId === project.id">
+        <!-- Background Image (shows when not hovered) -->
+        <div class="card-image" *ngIf="hoveredCardId !== project.id">
+          <img [src]="project.backgroundImage" [alt]="project.title">
+        </div>
+
+        <!-- Project Data (shows when hovered) -->
+        <div class="card-data" *ngIf="hoveredCardId === project.id">
+          <h2>{{ project.title }}</h2>
+          <p class="description">{{ project.description }}</p>
+          <div class="technologies">
+            <span *ngFor="let tech of project.technologies" class="tech-tag">
+              {{ tech }}
+            </span>
+          </div>
+        </div>
+      </div>
+    </mat-card>
+  </div>
+</div>
