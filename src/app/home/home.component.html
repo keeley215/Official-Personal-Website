@@ -81,7 +81,7 @@
 	<h2>Contact</h2>
 	<p>If you'd like to collaborate or chat, send a message or download my résumé.</p>
 	<div class="contact-cta">
-		<a mat-flat-button color="primary" routerLink="/contact">Get in touch</a>
-		<button mat-stroked-button color="accent" (click)="openResume()">Download Résumé</button>
+		<a mat-flat-button routerLink="/contact" class="contact-btn primary" aria-label="Go to contact page">Get in touch</a>
+		<button mat-flat-button type="button" (click)="openResume()" class="contact-btn secondary" aria-label="Download résumé">Download Résumé</button>
 	</div>
 </section>
