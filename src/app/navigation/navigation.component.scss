@@ -1,7 +1,7 @@
 nav {
   display: flex;
-  gap: 1rem; /* Adds spacing between the links */
-  justify-content: flex-end; /* Aligns items to the right */
+  gap: 1rem;
+  justify-content: flex-end;
 }
 
 .spacer {
@@ -9,12 +9,12 @@ nav {
 }
 
 .active-link {
-  background-color: white; /* Background color when active */
-  color: var(--mdc-theme-primary) !important; /* Text color when active */
+  background-color: white;
+  color: var(--mdc-theme-primary) !important;
 }
 
 a.mat-button {
-  border-radius: 50%; /* Makes the button round */
-  padding: 10px 20px; /* Controls the size of the button */
+  border-radius: 50%;
+  padding: 10px 20px;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }

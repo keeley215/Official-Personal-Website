@@ -1,1 +1,87 @@
-<p>home works!</p>
+<section class="hero">
+	<div class="hero-inner">
+		<h1 class="hero-title">Hi, I'm Keeley Johansen.</h1>
+		<p class="hero-sub">I build web applications, automation systems, and explore AI — currently pursuing a Master's in Computer Science.</p>
+	</div>
+</section>
+
+<section class="snapshot-strip">
+	<div class="snapshot-item">
+		<div class="num">10+</div>
+		<div class="label">Years coding</div>
+	</div>
+	<div class="snapshot-item">
+		<div class="num">20+</div>
+		<div class="label">Projects</div>
+	</div>
+	<div class="snapshot-item">
+		<div class="num">3</div>
+		<div class="label">Companies</div>
+	</div>
+	<div class="snapshot-item">
+		<div class="num">1</div>
+		<div class="label">Masters (in progress)</div>
+	</div>
+</section>
+
+<section class="cta-section">
+	<a mat-flat-button color="primary" routerLink="/projects" class="cta-btn">View My Projects</a>
+	<button mat-stroked-button color="accent" (click)="openResume()" class="cta-btn">Download Résumé</button>
+</section>
+
+<section class="preview-projects">
+	<h2>Featured Projects</h2>
+	<div class="featured-grid">
+		<mat-card 
+			*ngFor="let project of featuredProjects" 
+			class="project-card"
+			(mouseenter)="onCardHover(project.id)"
+			(mouseleave)="onCardLeave()"
+			[attr.data-id]="project.id"
+		>
+			<div class="card-content">
+				<div class="card-image" [class.hidden]="hoveredCardId === project.id">
+					<img [src]="project.backgroundImage" [alt]="project.title">
+				</div>
+				<div class="card-data" [class.visible]="hoveredCardId === project.id" [class.overflow]="overflowMap[project.id]">
+					<h2>{{ project.title }}</h2>
+					<p class="subtitle">{{ project.subtitle }}</p>
+					<p class="year-category"><span class="year">{{ project.year }}</span> • <span class="category">{{ project.category }}</span></p>
+					<p class="description">{{ project.description }}</p>
+					<div class="technologies">
+						<span *ngFor="let tech of project.technologies" class="tech-tag">
+							{{ tech }}
+						</span>
+					</div>
+				</div>
+			</div>
+		</mat-card>
+	</div>
+</section>
+
+<section class="three-cards">
+	<h2>What I work on</h2>
+	<div class="cards">
+		<div class="card">
+			<h3>Full Stack Apps</h3>
+			<p>Building user-friendly frontends and scalable backends using Angular and Spring Boot.</p>
+		</div>
+		<div class="card">
+			<h3>AI & Research</h3>
+			<p>Exploring model-based reasoning and applied ML for pattern recognition and automation.</p>
+		</div>
+		<div class="card">
+			<h3>Automation & DevOps</h3>
+			<p>Infrastructure, CI/CD, monitoring and systems that keep production healthy.</p>
+		</div>
+	</div>
+</section>
+
+<section class="contact-section">
+	<h2>Contact</h2>
+	<p>If you'd like to collaborate or chat, send a message or download my résumé.</p>
+	<div class="contact-cta">
+		<a mat-flat-button color="primary" routerLink="/contact">Get in touch</a>
+		<button mat-stroked-button color="accent" (click)="openResume()">Download Résumé</button>
+	</div>
+</section>

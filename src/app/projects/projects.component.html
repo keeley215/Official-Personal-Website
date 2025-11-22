@@ -1,21 +1,31 @@
 <div class="projects-container">
   <h1>My Projects</h1>
+  <!-- Filter buttons (horizontal) -->
+  <div class="filter-bar">
+    <button class="filter-btn" [class.active]="selectedCategory === 'All'" (click)="selectCategory('All')">ALL</button>
+    <button class="filter-btn" [class.active]="selectedCategory === 'Work'" (click)="selectCategory('Work')">WORK</button>
+    <button class="filter-btn" [class.active]="selectedCategory === 'School'" (click)="selectCategory('School')">SCHOOL</button>
+    <button class="filter-btn" [class.active]="selectedCategory === 'Personal'" (click)="selectCategory('Personal')">PERSONAL</button>
+  </div>
   <div class="cards-grid">
     <mat-card 
-      *ngFor="let project of projects" 
+      *ngFor="let project of filteredProjects" 
       class="project-card"
       (mouseenter)="onCardHover(project.id)"
       (mouseleave)="onCardLeave()"
+      [attr.data-id]="project.id"
     >
-      <div class="card-content" [class.hovered]="hoveredCardId === project.id">
-        <!-- Background Image (shows when not hovered) -->
-        <div class="card-image" *ngIf="hoveredCardId !== project.id">
+      <div class="card-content">
+        <!-- Background Image (always present, visibility toggled via CSS) -->
+        <div class="card-image" [class.hidden]="hoveredCardId === project.id">
           <img [src]="project.backgroundImage" [alt]="project.title">
         </div>
 
-        <!-- Project Data (shows when hovered) -->
-        <div class="card-data" *ngIf="hoveredCardId === project.id">
+        <!-- Project Data (always present, visibility toggled via CSS) -->
+        <div class="card-data" [class.visible]="hoveredCardId === project.id" [class.overflow]="overflowMap[project.id]">
           <h2>{{ project.title }}</h2>
+          <p class="subtitle">{{ project.subtitle }}</p>
+          <p class="year-category"><span class="year">{{ project.year }}</span> • <span class="category">{{ project.category }}</span></p>
           <p class="description">{{ project.description }}</p>
           <div class="technologies">
             <span *ngFor="let tech of project.technologies" class="tech-tag">

@@ -1,0 +1,24 @@
+*.ts text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.scss text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Binary files - keep as-is
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.svg text eol=lf
+
+# Ensure git treats all other text files as text (auto normalization on checkout)
+* text=auto
+
+# You can override for Windows-specific scripts if needed:
+# *.cmd text eol=crlf
+# *.bat text eol=crlf

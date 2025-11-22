@@ -15,8 +15,17 @@ import {MatDivider} from '@angular/material/divider';
     MatDivider,
   ],
   templateUrl: './navigation.component.html',
-  styleUrl: './navigation.component.scss'
+  styleUrls: ['./navigation.component.scss']
 })
 export class NavigationComponent {
+
+  openResume(): void {
+    try {
+      window.open('/resume.pdf', '_blank');
+    } catch (e) {
+      // fallback: navigate in same tab
+      location.href = '/resume.pdf';
+    }
+  }
 
 }
