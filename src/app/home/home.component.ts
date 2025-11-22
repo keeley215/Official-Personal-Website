@@ -1,6 +1,7 @@
 import { Component, AfterViewInit, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 interface Project {
   id: number;
@@ -15,7 +16,7 @@ interface Project {
 
 @Component({
   selector: 'app-home',
-  imports: [CommonModule, MatCardModule],
+  imports: [CommonModule, MatCardModule, RouterLink, RouterLinkActive],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
