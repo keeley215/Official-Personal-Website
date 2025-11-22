@@ -3,9 +3,29 @@
   <mat-divider [inset]='true' [vertical]='true'></mat-divider>
   <span class="spacer"></span>
   <nav>
-    <a mat-button mat-button-flat routerLink="/" routerLinkActive="['active-link']"> Home </a>
-    <a mat-flat-button routerLink="/about" routerLinkActive="['active-link']"> About </a>
-    <a mat-flat-button routerLink="/projects" routerLinkActive="['active-link']"> Projects </a>
-    <a mat-flat-button routerLink="/contact" routerLinkActive="['active-link']"> Contact </a>
+    <a mat-button mat-button-flat routerLink="/" routerLinkActive="['active-link']" class="nav-btn">
+      <span class="nav-content">
+        <mat-icon class="nav-icon">home</mat-icon>
+        <span class="nav-text">Home</span>
+      </span>
+    </a>
+    <a mat-flat-button routerLink="/about" routerLinkActive="['active-link']" class="nav-btn">
+      <span class="nav-content">
+        <mat-icon class="nav-icon">info</mat-icon>
+        <span class="nav-text">About</span>
+      </span>
+    </a>
+    <a mat-flat-button routerLink="/projects" routerLinkActive="['active-link']" class="nav-btn">
+      <span class="nav-content">
+        <mat-icon class="nav-icon">folder</mat-icon>
+        <span class="nav-text">Projects</span>
+      </span>
+    </a>
+    <a mat-flat-button routerLink="/contact" routerLinkActive="['active-link']" class="nav-btn">
+      <span class="nav-content">
+        <mat-icon class="nav-icon">mail</mat-icon>
+        <span class="nav-text">Contact</span>
+      </span>
+    </a>
   </nav>
 </mat-toolbar>
