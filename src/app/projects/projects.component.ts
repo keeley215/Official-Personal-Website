@@ -48,7 +48,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Liftoff', 'Liftoff Micro', 'Radiomaster TX16S MAX II'],
       category: 'Personal',
       year: '2025',
-       backgroundImage: '/drone-autofollow.jpg'
+       backgroundImage: '/drone.jpg'
     },
     {
       id: 2,

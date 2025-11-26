@@ -63,7 +63,7 @@ export class HomeComponent implements AfterViewInit, OnDestroy {
       technologies: ['Liftoff', 'Liftoff Micro', 'Radiomaster TX16S MAX II'],
       category: 'Personal',
       year: '2025',
-      backgroundImage: '/gpsenabled-drone-boasting-autofollow-technology-as-it-captures-stunning-aerial-imagery-effortlessly-tracking-subjects-produce-striking-visual-content-generated-by-ai_727385-5003-2567072353.jpg'
+      backgroundImage: '/drone.jpg'
     }
   ];
 

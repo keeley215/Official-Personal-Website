@@ -73,6 +73,8 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
   transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border: 2px solid #7c3aed !important;
     background: #fff !important;
@@ -314,7 +316,7 @@
 
 .contact-section{padding:2rem 1.25rem;text-align:center}
 .contact-cta{display:flex;justify-content:center;align-items:center;gap:1.25rem;margin-top:1.25rem;flex-wrap:wrap}
-.contact-btn{padding:0.85rem 2.1rem !important;font-weight:600 !important;letter-spacing:0.6px;border-radius:10px !important;transition:all .25s ease;box-shadow:0 6px 18px rgba(124,58,237,0.18);text-transform:uppercase;font-size:.9rem !important;text-decoration:none !important}
+.contact-btn{padding:0.85rem 2.1rem !important;cursor:pointer;font-weight:600 !important;letter-spacing:0.6px;border-radius:10px !important;transition:all .25s ease;box-shadow:0 6px 18px rgba(124,58,237,0.18);text-transform:uppercase;font-size:.9rem !important;text-decoration:none !important}
 .contact-btn:visited,.contact-btn:hover,.contact-btn:focus{ text-decoration:none !important }
 .contact-btn.primary{background:linear-gradient(90deg,#6b46ff 0%,#7c3aed 50%,#6435d8 100%);color:#fff !important;border:1px solid #6b46ff}
 .contact-btn.primary:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(107,70,255,0.35)}
