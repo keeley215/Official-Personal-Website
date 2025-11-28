@@ -6,10 +6,10 @@ import {ProjectsComponent} from './projects/projects.component';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 
 export const routes: Routes = [
-  {path: '', component: HomeComponent, title: 'Home'},
-  {path: 'about', component: AboutComponent, title: 'About'},
-  {path: 'contact', component: ContactComponent, title: 'Contact Us'},
-  {path: 'projects', component: ProjectsComponent, title: 'Projects'},
+  {path: '', component: HomeComponent, title: 'Keeley <3'},
+  {path: 'about', component: AboutComponent},
+  {path: 'contact', component: ContactComponent},
+  {path: 'projects', component: ProjectsComponent},
   {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: '**', component: PageNotFoundComponent}
 ];

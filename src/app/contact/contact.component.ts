@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
+import { MatIcon } from "@angular/material/icon";
 
 @Component({
   selector: 'app-contact',
-  imports: [RouterLink, MatButtonModule],
+  imports: [RouterLink, MatButtonModule, MatIcon],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss'
 })
