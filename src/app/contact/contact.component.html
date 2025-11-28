@@ -1,1 +1,31 @@
-<p>contact works!</p>
+<section class="contact-hero">
+	<h1 class="mega-title">Say Hello!</h1>
+	<div class="hero-accent">
+		<span class="line"></span>
+		<span class="dot"></span>
+	</div>
+	<p class="subtitle">Open to collaborations, roles, and interesting problems.</p>
+	<div class="cta-row">
+		<a mat-flat-button color="primary" routerLink="/projects">View Projects</a>
+		<button mat-stroked-button color="accent" (click)="openEmail()">Email Me</button>
+	</div>
+  
+</section>
+
+<section class="city-grid">
+	<article class="city-panel left">
+		<div class="image" role="img" aria-label="Pittsburgh skyline"></div>
+		<div class="overlay">
+			<div class="vertical-tag">PIT</div>
+			<div class="city-title">Pittsburgh, PA</div>
+		</div>
+	</article>
+
+	<article class="city-panel right">
+		<div class="image" role="img" aria-label="Savannah, Georgia skyline"></div>
+		<div class="overlay">
+			<div class="vertical-tag">SAV</div>
+			<div class="city-title">Savannah, GA</div>
+		</div>
+	</article>
+</section>

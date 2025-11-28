@@ -1,0 +1,125 @@
+:root{
+	--primary-500: #4f46e5;
+	--primary-600: #4338ca;
+	--accent-500: #06b6d4;
+}
+
+.contact-hero{
+	background: #1a0b2e;
+	color: #fff;
+	text-align: center;
+	padding: 5rem 1rem 3rem;
+}
+
+.mega-title{
+	font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	font-size: clamp(3rem, 8vw, 8rem);
+	margin: 0 0 1.25rem 0;
+}
+
+.hero-accent{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	margin: 0 auto 2.5rem;
+}
+.hero-accent .line{
+	width: 2px;
+	height: 48px;
+	background: linear-gradient(180deg, #fff, rgba(255,255,255,.5));
+	display: inline-block;
+}
+.hero-accent .dot{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #fff;
+	display: inline-block;
+}
+
+.subtitle{
+	color: #cbd5e1;
+	margin: 0 auto 1rem;
+	max-width: 900px;
+}
+
+.cta-row{
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+}
+
+.cta-row a{
+	background-color: #7c3aed !important;
+	border-color: #7c3aed !important;
+}
+
+.cta-row button{
+	background-color: white !important;
+	color: #7c3aed !important;
+	border-color: #7c3aed !important;
+}
+
+.city-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1.25rem;
+	padding: 1.25rem;
+}
+
+.city-panel{
+	position: relative;
+	min-height: 360px;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 8px 24px rgba(0,0,0,.25);
+}
+.city-panel .image{
+	position: absolute;
+	inset: 0;
+	background-size: cover;
+	background-position: center;
+	filter: brightness(.8);
+}
+.city-panel.left .image{
+	background-image: url('/pitt4.jpg');
+}
+.city-panel.right .image{
+	background-image: url('/savannah.jpg');
+}
+
+.city-panel .overlay{
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	padding: 1.25rem;
+	color: #fff;
+}
+
+.vertical-tag{
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	letter-spacing: 2px;
+	font-weight: 700;
+	font-size: 1.1rem;
+	color: rgba(255,255,255,.9);
+}
+
+.city-title{
+	font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
+	font-size: clamp(1.5rem, 3vw, 2.5rem);
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #fff;
+	margin-left: auto;
+}
+
+@media (max-width: 900px){
+	.city-grid{ grid-template-columns: 1fr; }
+	.mega-city{ font-size: clamp(3rem, 18vw, 7rem); }
+}

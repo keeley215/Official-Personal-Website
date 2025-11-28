@@ -39,6 +39,16 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
 
   private projectsData: Project[] = [
     {
+      id: 0,
+      title: 'Smart Robot Car Assembly and Testing',
+      subtitle: '1st Step in Robotics Journey',
+      description: 'This marks the beginning of my journey into robotics. This was for the Smart Robot Car V4',
+      technologies: ['Liftoff', 'Liftoff Micro', 'Radiomaster TX16S MAX II'],
+      category: 'Personal',
+      year: '2025',
+       backgroundImage: '/drone.jpg'
+    },
+    {
       id: 1,
       title: 'Drone Sim and Radio Controller Testing',
       subtitle: 'Beginning of Drone Studies',
