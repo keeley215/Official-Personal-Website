@@ -42,8 +42,9 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       id: 0,
       title: 'Smart Robot Car Assembly and Testing',
       subtitle: '1st Step in Robotics Journey',
-      description: 'This marks the beginning of my journey into robotics. This was for the Smart Robot Car V4',
-      technologies: ['Liftoff', 'Liftoff Micro', 'Radiomaster TX16S MAX II'],
+      description: 'This marks the beginning of my journey into robotics. In this project, I put together the Smart Robot Car V4 kit by ELEGOO. This smart car was assembled from scratch, including installing the motors, sensors, and microcontroller. ' +
+      'After assembly, I programmed the car to perform basic functions such as line following, obstacle avoidance, and remote control operation. This hands-on experience provided a solid foundation in robotics principles and has sparked my interest in further exploring this exciting field.' ,
+      technologies: ['Mechatronics', 'Robotics', 'Arduino', 'C++', 'Sensors', 'Motors'],
       category: 'Personal',
       year: '2025',
        backgroundImage: '/drone.jpg'
