@@ -43,7 +43,7 @@ export class HomeComponent implements AfterViewInit, OnDestroy {
       technologies: ['Linux', 'Chef', 'Physical Hardware', 'Python', 'Bash', 'Networking', 'adb'],
       category: 'Work',
       year: '2021',
-      backgroundImage: '/server%20room.jpeg'
+      backgroundImage: '/server-room.jpeg'
     },
     {
       id: 3,

@@ -116,7 +116,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['AWS', 'Cloud Computing', 'Infrastructure'],
       category: 'Personal',
       year: '2022',
-        backgroundImage: '/clous%20infra.jpg'
+        backgroundImage: '/clous-infra.jpg'
     },
     {
       id: 7,
@@ -126,7 +126,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['People Management', 'Communication', 'Leadership', 'Team Building'],
       category: 'Work',
       year: '2021',
-        backgroundImage: '/team%20collaboration.jpg'
+        backgroundImage: '/team-collaboration.jpg'
     },
     {
       id: 8,
@@ -136,7 +136,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Linux', 'Chef', 'Physical Hardware', 'Python', 'Bash', 'Networking', 'adb'],
       category: 'Work',
       year: '2021',
-      backgroundImage: '/server%20room.jpeg'
+      backgroundImage: '/server-room.jpeg'
     },
     {
       id: 9,
@@ -179,7 +179,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Vue.js', 'Java', 'Spring Boot', 'Agile/SCRUM', 'CSS', 'HTML', 'axios', 'git'],
       category: 'Work',
       year: '2020',
-      backgroundImage: '/doctor%20app.jpg'
+      backgroundImage: '/doctor-app.jpg'
     },
     {
       id: 13,
@@ -231,7 +231,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Java', 'Encryption', 'Algorithms'],
       category: 'School',
       year: '2017',
-      backgroundImage: '/rubik%20cube.jpg'
+      backgroundImage: '/rubik-cube.jpg'
     }
   ];
 
