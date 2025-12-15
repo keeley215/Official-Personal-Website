@@ -47,7 +47,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Mechatronics', 'Robotics', 'Arduino', 'C++', 'Sensors', 'Motors'],
       category: 'Personal',
       year: '2025',
-       backgroundImage: '/drone.jpg'
+       backgroundImage: 'drone.jpg'
     },
     {
       id: 1,
@@ -59,7 +59,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Liftoff', 'Liftoff Micro', 'Radiomaster TX16S MAX II'],
       category: 'Personal',
       year: '2025',
-       backgroundImage: '/drone.jpg'
+       backgroundImage: 'drone.jpg'
     },
     {
       id: 2,
@@ -69,7 +69,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['NumPy', 'Agentic AI', 'Heuristic Analysis', 'Machine Learning', 'Python'],
       category: 'School',
       year: '2024',
-      backgroundImage: '/neural-net-image.jpg'
+      backgroundImage: 'neural-net-image.jpg'
     },
     {
       id: 3,
@@ -80,7 +80,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Python', 'Machine Learning', 'AI', 'Reinforced Learning', 'Algorithms', 'NumPy', 'Robotics'],
       category: 'School',
       year: '2024',
-        backgroundImage: '/GT.jpg'
+        backgroundImage: 'GT.jpg'
     },
     {
       id: 4,
@@ -93,7 +93,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Angular', 'NGRX', 'Bootstrap5', 'TypeScript', 'Spring Boot', 'RESTful APIs', 'Java', 'MySQL', 'Git', 'Agile/SCRUM', 'JIRA'],
       category: 'Work',
       year: '2025',
-        backgroundImage: '/ang2.jpg'
+        backgroundImage: 'ang2.jpg'
     },
     {
       id: 5,
@@ -106,7 +106,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Java', 'JIRA', 'Confluence', 'ServiceNow', 'Splunk', 'Grafana', 'Kafka', 'Agile/SCRUM', 'People Management', 'Team Building'],
       category: 'Work',
       year: '2023',
-        backgroundImage: '/bny.jpg'
+        backgroundImage: 'bny.jpg'
     },
     {
       id: 6,
@@ -116,7 +116,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['AWS', 'Cloud Computing', 'Infrastructure'],
       category: 'Personal',
       year: '2022',
-        backgroundImage: '/clous%20infra.jpg'
+        backgroundImage: 'clous%20infra.jpg'
     },
     {
       id: 7,
@@ -126,7 +126,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['People Management', 'Communication', 'Leadership', 'Team Building'],
       category: 'Work',
       year: '2021',
-        backgroundImage: '/team%20collaboration.jpg'
+        backgroundImage: 'team%20collaboration.jpg'
     },
     {
       id: 8,
@@ -136,7 +136,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Linux', 'Chef', 'Physical Hardware', 'Python', 'Bash', 'Networking', 'adb'],
       category: 'Work',
       year: '2021',
-      backgroundImage: '/server%20room.jpeg'
+      backgroundImage: 'server%20room.jpeg'
     },
     {
       id: 9,
@@ -146,7 +146,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Linux', 'Chef', 'Physical Hardware', 'Python', 'Bash', 'Selenium', 'adb'],
       category: 'Work',
       year: '2021',
-      backgroundImage: '/meta.jpg'
+      backgroundImage: 'meta.jpg'
     },
     {
       id: 10,
@@ -156,7 +156,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Selenium', 'Cucumber', 'Gherkin', 'Java'],
       category: 'Work',
       year: '2020',
-      backgroundImage: '/testing.png'
+      backgroundImage: 'testing.png'
     },
     {
       id: 11,
@@ -179,7 +179,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Vue.js', 'Java', 'Spring Boot', 'Agile/SCRUM', 'CSS', 'HTML', 'axios', 'git'],
       category: 'Work',
       year: '2020',
-      backgroundImage: '/doctor%20app.jpg'
+      backgroundImage: 'doctor%20app.jpg'
     },
     {
       id: 13,
@@ -189,7 +189,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Vue.js', 'Java', 'PEGA', 'Agile', 'CSS', 'HTML'],
       category: 'Work',
       year: '2019',
-      backgroundImage: '/highmark2.jpg'
+      backgroundImage: 'highmark2.jpg'
     },
     {
       id: 14,
@@ -199,7 +199,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['MySQL', 'Oracle'],
       category: 'School',
       year: '2018',
-      backgroundImage: '/db2.jpeg'
+      backgroundImage: 'db2.jpeg'
     },
     {
       id: 15,
@@ -209,7 +209,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Java'],
       category: 'School',
       year: '2018',
-      backgroundImage: '/compiler.jpg'
+      backgroundImage: 'compiler.jpg'
     },
     {
       id: 16,
@@ -231,7 +231,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Java', 'Encryption', 'Algorithms'],
       category: 'School',
       year: '2017',
-      backgroundImage: '/rubik%20cube.jpg'
+      backgroundImage: 'rubik%20cube.jpg'
     }
   ];
 
