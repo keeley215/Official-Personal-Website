@@ -33,7 +33,7 @@ export class HomeComponent implements AfterViewInit, OnDestroy {
       technologies: ['NumPy', 'Agentic AI', 'Heuristic Analysis', 'Machine Learning', 'Python'],
       category: 'School',
       year: '2024',
-      backgroundImage: '/neural-net-image.jpg'
+      backgroundImage: 'neural-net-image.jpg'
     },
     {
       id: 8,
@@ -43,7 +43,7 @@ export class HomeComponent implements AfterViewInit, OnDestroy {
       technologies: ['Linux', 'Chef', 'Physical Hardware', 'Python', 'Bash', 'Networking', 'adb'],
       category: 'Work',
       year: '2021',
-      backgroundImage: '/server-room.jpeg'
+      backgroundImage: 'server-room.jpeg'
     },
     {
       id: 3,
@@ -53,7 +53,7 @@ export class HomeComponent implements AfterViewInit, OnDestroy {
       technologies: ['Python', 'Machine Learning', 'AI', 'Reinforced Learning', 'Algorithms', 'NumPy', 'Robotics'],
       category: 'School',
       year: '2024',
-      backgroundImage: '/GT.jpg'
+      backgroundImage: 'GT.jpg'
     },
     {
       id: 1,
@@ -63,7 +63,7 @@ export class HomeComponent implements AfterViewInit, OnDestroy {
       technologies: ['Liftoff', 'Liftoff Micro', 'Radiomaster TX16S MAX II'],
       category: 'Personal',
       year: '2025',
-      backgroundImage: '/drone.jpg'
+      backgroundImage: 'drone.jpg'
     }
   ];
 

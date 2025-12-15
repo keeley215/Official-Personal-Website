@@ -47,7 +47,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Mechatronics', 'Robotics', 'Arduino', 'C++', 'Sensors', 'Motors'],
       category: 'Personal',
       year: '2025',
-       backgroundImage: '/drone.jpg'
+       backgroundImage: 'drone.jpg'
     },
     {
       id: 1,
@@ -59,7 +59,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Liftoff', 'Liftoff Micro', 'Radiomaster TX16S MAX II'],
       category: 'Personal',
       year: '2025',
-       backgroundImage: '/drone.jpg'
+       backgroundImage: 'drone.jpg'
     },
     {
       id: 2,
@@ -69,7 +69,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['NumPy', 'Agentic AI', 'Heuristic Analysis', 'Machine Learning', 'Python'],
       category: 'School',
       year: '2024',
-      backgroundImage: '/neural-net-image.jpg'
+      backgroundImage: 'neural-net-image.jpg'
     },
     {
       id: 3,
@@ -93,7 +93,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Angular', 'NGRX', 'Bootstrap5', 'TypeScript', 'Spring Boot', 'RESTful APIs', 'Java', 'MySQL', 'Git', 'Agile/SCRUM', 'JIRA'],
       category: 'Work',
       year: '2025',
-        backgroundImage: '/ang2.jpg'
+        backgroundImage: 'ang2.jpg'
     },
     {
       id: 5,
@@ -106,7 +106,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Java', 'JIRA', 'Confluence', 'ServiceNow', 'Splunk', 'Grafana', 'Kafka', 'Agile/SCRUM', 'People Management', 'Team Building'],
       category: 'Work',
       year: '2023',
-        backgroundImage: '/bny.jpg'
+        backgroundImage: 'bny.jpg'
     },
     {
       id: 6,
@@ -116,7 +116,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['AWS', 'Cloud Computing', 'Infrastructure'],
       category: 'Personal',
       year: '2022',
-        backgroundImage: '/clous-infra.jpg'
+        backgroundImage: 'clous-infra.jpg'
     },
     {
       id: 7,
@@ -126,7 +126,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['People Management', 'Communication', 'Leadership', 'Team Building'],
       category: 'Work',
       year: '2021',
-        backgroundImage: '/team-collaboration.jpg'
+        backgroundImage: 'team-collaboration.jpg'
     },
     {
       id: 8,
@@ -136,7 +136,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Linux', 'Chef', 'Physical Hardware', 'Python', 'Bash', 'Networking', 'adb'],
       category: 'Work',
       year: '2021',
-      backgroundImage: '/server-room.jpeg'
+      backgroundImage: 'server-room.jpeg'
     },
     {
       id: 9,
@@ -156,7 +156,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Selenium', 'Cucumber', 'Gherkin', 'Java'],
       category: 'Work',
       year: '2020',
-      backgroundImage: '/testing.png'
+      backgroundImage: 'testing.png'
     },
     {
       id: 11,
@@ -179,7 +179,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Vue.js', 'Java', 'Spring Boot', 'Agile/SCRUM', 'CSS', 'HTML', 'axios', 'git'],
       category: 'Work',
       year: '2020',
-      backgroundImage: '/doctor-app.jpg'
+      backgroundImage: 'doctor-app.jpg'
     },
     {
       id: 13,
@@ -199,7 +199,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['MySQL', 'Oracle'],
       category: 'School',
       year: '2018',
-      backgroundImage: '/db2.jpeg'
+      backgroundImage: 'db2.jpeg'
     },
     {
       id: 15,
@@ -231,7 +231,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Java', 'Encryption', 'Algorithms'],
       category: 'School',
       year: '2017',
-      backgroundImage: '/rubik-cube.jpg'
+      backgroundImage: 'rubik-cube.jpg'
     }
   ];
 

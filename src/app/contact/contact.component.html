@@ -48,7 +48,7 @@
 
 <section class="city-grid">
 	<article class="city-panel left">
-		<div class="image" role="img" aria-label="Pittsburgh skyline"></div>
+		<div class="image" role="img" aria-label="Pittsburgh skyline" [ngStyle]="{'background-image': 'url(' + pittsburghImage + ')'}"></div>
 		<div class="overlay">
 			<div class="vertical-tag">PIT</div>
 			<div class="city-title">Pittsburgh, PA</div>
@@ -56,7 +56,7 @@
 	</article>
 
 	<article class="city-panel right">
-		<div class="image" role="img" aria-label="Savannah, Georgia skyline"></div>
+		<div class="image" role="img" aria-label="Savannah, Georgia skyline" [ngStyle]="{'background-image': 'url(' + savannahImage + ')'}"></div>
 		<div class="overlay">
 			<div class="vertical-tag">SAV</div>
 			<div class="city-title">Savannah, GA</div>

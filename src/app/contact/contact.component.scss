@@ -182,12 +182,7 @@
 	background-position: center;
 	filter: brightness(.8);
 }
-.city-panel.left .image{
-	background-image: url('/pitt4.jpg');
-}
-.city-panel.right .image{
-	background-image: url('/savannah.jpg');
-}
+/* Background images are now set dynamically via [ngStyle] in the template */
 
 .city-panel .overlay{
 	position: absolute;
