@@ -18,7 +18,7 @@
       <div class="card-content">
         <!-- Background Image (always present, visibility toggled via CSS) -->
         <div class="card-image" [class.hidden]="hoveredCardId === project.id">
-          <img [src]="project.backgroundImage" [alt]="project.title">
+          <img [src]="getImageUrl(project.backgroundImage)" [alt]="project.title">
         </div>
 
         <!-- Project Data (always present, visibility toggled via CSS) -->
