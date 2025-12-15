@@ -80,7 +80,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Python', 'Machine Learning', 'AI', 'Reinforced Learning', 'Algorithms', 'NumPy', 'Robotics'],
       category: 'School',
       year: '2024',
-        backgroundImage: '/GT.jpg'
+        backgroundImage: 'GT.jpg'
     },
     {
       id: 4,
@@ -146,7 +146,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Linux', 'Chef', 'Physical Hardware', 'Python', 'Bash', 'Selenium', 'adb'],
       category: 'Work',
       year: '2021',
-      backgroundImage: '/meta.jpg'
+      backgroundImage: 'meta.jpg'
     },
     {
       id: 10,
@@ -189,7 +189,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Vue.js', 'Java', 'PEGA', 'Agile', 'CSS', 'HTML'],
       category: 'Work',
       year: '2019',
-      backgroundImage: '/highmark2.jpg'
+      backgroundImage: 'highmark2.jpg'
     },
     {
       id: 14,
@@ -209,7 +209,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Java'],
       category: 'School',
       year: '2018',
-      backgroundImage: '/compiler.jpg'
+      backgroundImage: 'compiler.jpg'
     },
     {
       id: 16,
