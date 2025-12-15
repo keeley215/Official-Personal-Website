@@ -168,7 +168,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Vue.js', 'Java', 'Spring Boot', 'Agile/SCRUM', 'CSS', 'HTML', 'axios', 'git'],
       category: 'Personal',
       year: '2020',
-      backgroundImage: '/https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=600&fit=crop'
+      backgroundImage: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=600&fit=crop'
     },
     {
       id: 12,
@@ -221,7 +221,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit, OnDestroy {
       technologies: ['Java', 'Cron', 'Gmail API'],
       category: 'Personal',
       year: '2017',
-      backgroundImage: '/https://images.unsplash.com/photo-1519052537078-e6302a4968d4?w=800&h=600&fit=crop'
+      backgroundImage: 'https://images.unsplash.com/photo-1519052537078-e6302a4968d4?w=800&h=600&fit=crop'
     },
     {
       id: 17,
