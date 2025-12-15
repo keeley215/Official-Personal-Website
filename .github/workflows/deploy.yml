@@ -40,7 +40,7 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: ./dist/official-personal-website
+        path: ./dist/official-personal-website/browser
 
   deploy:
     environment:
