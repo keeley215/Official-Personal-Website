@@ -1,0 +1,10 @@
+/* Main content spacing to account for fixed navbar */
+.main-content {
+  padding-top: 64px; /* Height of Material toolbar + some spacing */
+  min-height: calc(100vh - 64px);
+}
+
+/* Ensure smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}

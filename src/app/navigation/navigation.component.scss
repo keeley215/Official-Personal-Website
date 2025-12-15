@@ -1,3 +1,27 @@
+/* Scroll-responsive navbar animation */
+mat-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(0);
+}
+
+.navbar-visible {
+  transform: translateY(0) !important;
+}
+
+.navbar-hidden {
+  transform: translateY(-100%) !important;
+}
+
+/* Add top padding to body to account for fixed navbar */
+:host {
+  display: block;
+}
+
 /* Nav button custom styles */
 .nav-btn {
   text-decoration: none !important;

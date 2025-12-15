@@ -1,4 +1,4 @@
-<mat-toolbar color="primary">
+<mat-toolbar color="primary" [ngClass]="{'navbar-hidden': !isNavbarVisible, 'navbar-visible': isNavbarVisible}">
   <span>KJ</span>
   <mat-divider [inset]='true' [vertical]='true'></mat-divider>
   <span class="spacer"></span>
