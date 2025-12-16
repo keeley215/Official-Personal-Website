@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'aacli-v190200' title`, () => {
+  it(`should have the 'official-personal-website' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('aacli-v190200');
+    expect(app.title).toEqual('official-personal-website');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, aacli-v190200');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, official-personal-website');
   });
 });

@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "aacli-v190200:build:production"
+              "buildTarget": "official-personal-website:build:production"
             },
             "development": {
-              "buildTarget": "aacli-v190200:build:development"
+              "buildTarget": "official-personal-website:build:development"
             }
           },
           "defaultConfiguration": "development"
