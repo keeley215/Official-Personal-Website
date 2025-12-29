@@ -4,10 +4,7 @@ import {MatBadge} from '@angular/material/badge';
 
 @Component({
   selector: 'app-page-not-found',
-  imports: [
-    MatChip,
-    MatBadge
-  ],
+  imports: [],
   templateUrl: './page-not-found.component.html',
   styleUrl: './page-not-found.component.scss'
 })

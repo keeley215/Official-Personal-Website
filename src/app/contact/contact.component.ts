@@ -6,7 +6,7 @@ import { MatIcon } from "@angular/material/icon";
 
 @Component({
   selector: 'app-contact',
-  imports: [CommonModule, RouterLink, MatButtonModule, MatIcon],
+  imports: [CommonModule, RouterLink, MatButtonModule],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss'
 })

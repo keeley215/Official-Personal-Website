@@ -24,7 +24,7 @@ export class NavigationComponent implements OnDestroy {
   private topThreshold = 100; // Always show navbar when within this distance from top
   isNavbarVisible = true;
 
-  @HostListener('window:scroll', ['$event'])
+  @HostListener('window:scroll')
   onWindowScroll(): void {
     const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
     
